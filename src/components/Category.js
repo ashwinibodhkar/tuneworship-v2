@@ -25,7 +25,7 @@ export default function Category() {
                     <div className="card glass shadow-xl rounded-box">
                         <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
                         <div className="card-body p-3 leading-5 ...">
-                            <h2 className="card-title">Life hack</h2>
+                            <h5 className="card-title">Life hack</h5>
                             <p>How to park </p>
             
                         </div>
@@ -34,7 +34,7 @@ export default function Category() {
                     <div className="card glass shadow-xl rounded-box">
                         <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
                         <div className="card-body p-3 leading-5 ...">
-                            <h2 className="card-title">Life hack</h2>
+                            <h5 className="card-title">Life hack</h5>
                             <p>How to park </p>
             
                         </div>
@@ -43,7 +43,7 @@ export default function Category() {
                     <div className="card glass shadow-xl rounded-box">
                         <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
                         <div className="card-body p-3 leading-5 ...">
-                            <h2 className="card-title">Life hack</h2>
+                            <h5 className="card-title">Life hack</h5>
                             <p>How to park </p>
             
                         </div>
@@ -52,7 +52,7 @@ export default function Category() {
                     <div className="card glass shadow-xl rounded-box">
                         <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
                         <div className="card-body p-3 leading-5 ...">
-                            <h2 className="card-title">Life hack</h2>
+                            <h5 className="card-title">Life hack</h5>
                             <p>How to park </p>
             
                         </div>
@@ -61,7 +61,7 @@ export default function Category() {
                     <div className="card glass shadow-xl rounded-box">
                         <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
                         <div className="card-body p-3 leading-5 ...">
-                            <h2 className="card-title">Life hack</h2>
+                            <h5 className="card-title">Life hack</h5>
                             <p>How to park </p>
             
                         </div>
@@ -70,7 +70,7 @@ export default function Category() {
                     <div className="card glass shadow-xl rounded-box">
                         <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
                         <div className="card-body p-3 leading-5 ...">
-                            <h2 className="card-title">Life hack</h2>
+                            <h5 className="card-title">Life hack</h5>
                             <p>How to park </p>
             
                         </div>

@@ -19,8 +19,8 @@ export default function Navbar() {
                     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
                     {/* Sidebar content here */}
-                    <li><a>Sidebar Item 1</a></li>
-                    <li><a>Sidebar Item 2</a></li>
+                    <li><a href="/">Sidebar Item 1</a></li>
+                    <li><a href="/">Sidebar Item 2</a></li>
                     
                     </ul>
                 </div>
@@ -35,7 +35,7 @@ export default function Navbar() {
             </div>
         </div>
         <div className="navbar-center">
-            <a className="btn btn-ghost text-xl subpixel-antialiased ...">TuneWorship</a>
+            <a href="/" className="btn btn-ghost text-xl subpixel-antialiased ...">TuneWorship</a>
         </div>
         <div className="navbar-end">
             <button className="btn btn-ghost btn-circle">

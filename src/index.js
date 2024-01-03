@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Category from './components/Category';
@@ -9,19 +8,20 @@ import Slider from './components/Slider';
 import Artist from './components/Artist';
 import MostPlayed from './components/MostPlayed';
 import Advertise from './components/Advertise';
-
+import Carosel from './components/carosel';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
-    <div className="container mx-auto px-4">
-      <Category />     
-    </div>
+    
+    <Carosel /> 
     <Slider />
     <div className="container mx-auto px-4">
-      <Artist /> 
+    <Category />       
       <MostPlayed /> 
-      <Advertise />   
+      <Artist /> 
+      <Advertise /> 
+       
     </div>
     {/* <App /> */}
   </React.StrictMode>

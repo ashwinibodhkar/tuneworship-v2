@@ -7,19 +7,23 @@
 .card-title {
   line-height: 0.75rem;
 }
+.card-body :where(h5){
+  font-size: 1rem;
+}
 .card-body :where(p) {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 0.75rem;
   
 }
 
 .carousel-item{
-  width: 600px;
-  height: 400px;
+  width: 37.5rem;
+  height: 25rem;
+  border-radius: 10px;
 }
-.card{
-  
+.card {  
   border-radius: 10px;
 }
 .App {
@@ -59,4 +63,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (max-width: 768px) { 
+  .carousel-item{
+  width: 71%;
+  height: auto;
+} 
 }

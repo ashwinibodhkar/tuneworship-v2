@@ -22,31 +22,30 @@ export default function Slider() {
         
                 <div className="grid grid-rows-1 grid-flow-col gap-4 py-4">
                     <div class="grid" >
-
-                    <div className="carousel carousel-center   p-4 space-x-4">
-                    <div className="carousel-item  ">
-                        <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" />
-                    </div> 
-                    <div className="carousel-item ">
-                        <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" />
-                    </div> 
-                    <div className="carousel-item ">
-                        <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" />
-                    </div> 
-                    <div className="carousel-item ">
-                        <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" />
-                    </div> 
-                    <div className="carousel-item ">
-                        <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" />
-                    </div> 
-                    <div className="carousel-item ">
-                        <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" />
-                    </div> 
-                    <div className="carousel-item ">
-                        <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" />
+                        <div className="carousel carousel-center   p-4 space-x-4 " data-carousel="slide">
+                            <div className="carousel-item  ">
+                                <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" alt="img" />
+                            </div> 
+                            <div className="carousel-item ">
+                                <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" alt="img" />
+                            </div> 
+                            <div className="carousel-item ">
+                                <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" alt="img" />
+                            </div> 
+                            <div className="carousel-item ">
+                                <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" alt="img" />
+                            </div> 
+                            <div className="carousel-item ">
+                                <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" alt="img" />
+                            </div> 
+                            <div className="carousel-item ">
+                                <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" alt="img" />
+                            </div> 
+                            <div className="carousel-item ">
+                                <img src="https://i.ytimg.com/vi/sRG4XRqViOs/maxresdefault.jpg" className="rounded-box w-full" alt="img" />
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                </div>
                 </div>
             </div>
         </div> 
