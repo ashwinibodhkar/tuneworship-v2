@@ -17,6 +17,13 @@
   font-size: 0.75rem;
   
 }
+.card-body :where(h5) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+  
+}
 
 .carousel-item{
   width: 37.5rem;

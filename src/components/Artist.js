@@ -24,8 +24,8 @@ export default function Artist() {
 
                         <div className="card shadow-xl ">
                             <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
-                            <div className="card-body p-3">
-                               
+                            <div className="card-body py-3 px-0">
+                               <h5 className="card-title">Life hack</h5>
                                 <p>How to park your car at your garage?</p>
                                
                             </div>
@@ -33,8 +33,8 @@ export default function Artist() {
 
                         <div className="card shadow-xl ">
                             <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
-                            <div className="card-body p-3">
-                               
+                            <div className="card-body py-3 px-0">
+                               <h5 className="card-title">Life hack</h5>
                                 <p>How to park your car at your garage?</p>
                                
                             </div>
@@ -42,8 +42,8 @@ export default function Artist() {
 
                         <div className="card shadow-xl ">
                             <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
-                            <div className="card-body p-3">
-                               
+                            <div className="card-body py-3 px-0">
+                               <h5 className="card-title">Life hack</h5>
                                 <p>How to park your car at your garage?</p>
                                
                             </div>
@@ -51,8 +51,8 @@ export default function Artist() {
 
                         <div className="card shadow-xl ">
                             <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
-                            <div className="card-body p-3">
-                               
+                            <div className="card-body py-3 px-0">
+                               <h5 className="card-title">Life hack</h5>
                                 <p>How to park your car at your garage?</p>
                                
                             </div>
@@ -60,8 +60,8 @@ export default function Artist() {
 
                         <div className="card shadow-xl ">
                             <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
-                            <div className="card-body p-3">
-                               
+                            <div className="card-body py-3 px-0">
+                               <h5 className="card-title">Life hack</h5>
                                 <p>How to park your car at your garage?</p>
                                
                             </div>
@@ -69,8 +69,8 @@ export default function Artist() {
 
                         <div className="card shadow-xl ">
                             <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
-                            <div className="card-body p-3">
-                               
+                            <div className="card-body py-3 px-0">
+                               <h5 className="card-title">Life hack</h5>
                                 <p>How to park your car at your garage?</p>
                                
                             </div>
