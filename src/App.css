@@ -30,6 +30,9 @@
   height: 25rem;
   border-radius: 10px;
 }
+.carouselImg img{
+  margin:auto;
+}
 .card {  
   border-radius: 10px;
 }
@@ -77,4 +80,7 @@
   width: 71%;
   height: auto;
 } 
+
+
+
 }

@@ -9,6 +9,7 @@ import Artist from './components/Artist';
 import MostPlayed from './components/MostPlayed';
 import Advertise from './components/Advertise';
 import Carosel from './components/carosel';
+import BottomNav from './components/BottomNav';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -21,7 +22,7 @@ root.render(
       <MostPlayed /> 
       <Artist /> 
       <Advertise /> 
-       
+       <BottomNav />
     </div>
     {/* <App /> */}
   </React.StrictMode>
