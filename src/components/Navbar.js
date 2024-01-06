@@ -1,8 +1,9 @@
 import React from 'react'
 import "./../App.css";
+import Logo from "./../content/image/1.png";
 export default function Navbar() {
     return (
-    <div class="navbar bg-base-100 mb-5 shadow-xl rounded-box" >
+    <div class="navbar bg-black mb-5 shadow-xl rounded-box shadow-black-400 sticky top-0 ... z-40" >
         <div className="navbar-start">
             <div className="dropdown">
                 <div className="drawer">
@@ -19,7 +20,7 @@ export default function Navbar() {
                     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                     <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
                     {/* Sidebar content here */}
-                    <li><a href="/">Sidebar Item 1</a></li>
+                    <li><a href="./../pages/song.js">Sidebar Item 1</a></li>
                     <li><a href="/">Sidebar Item 2</a></li>
                     
                     </ul>
@@ -35,7 +36,9 @@ export default function Navbar() {
             </div>
         </div>
         <div className="navbar-center">
-            <a href="/" className="btn btn-ghost text-xl subpixel-antialiased ...">TuneWorship</a>
+            <a href="/" className="btn btn-ghost text-xl subpixel-antialiased ...">
+            <img src={Logo} alt="Movie" className="w-12 rounded-full ..." />
+              TuneWorship</a>
         </div>
         <div className="navbar-end">
             <button className="btn btn-ghost btn-circle">
