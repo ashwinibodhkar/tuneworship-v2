@@ -3,7 +3,7 @@ import "./../App.css";
 import Logo from "./../content/image/1.png";
 export default function Navbar() {
     return (
-    <div class="navbar bg-black mb-5 shadow-xl rounded-box shadow-black-400 sticky top-0 ... z-40" >
+    <div class="navbar bg-black mb-5 shadow-xl rounded-b-lg ... shadow-black-400 sticky top-0 ... z-40" >
         <div className="navbar-start">
             <div className="dropdown">
                 <div className="drawer">
