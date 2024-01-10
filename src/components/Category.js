@@ -1,6 +1,5 @@
 import React from 'react'
 import "./../App.css";
-import Song from "./../pages/song";
 import { Link } from "react-router-dom";
 export default function Category() {
     return (
