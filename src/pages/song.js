@@ -46,7 +46,7 @@ export default function song() {
             </div>
                 
           </div>
-          <div className="btm-nav btm-nav-md shadow-2xl lg:invisible md:visible">
+          <div className="btm-nav btm-nav-md shadow-2xl rounded-t-lg ... lg:invisible md:visible w-full">
             <div class="grid grid-cols-3 justify-items-center ..." >
               <div>
                 <h4 className="float-left">Transpose</h4>

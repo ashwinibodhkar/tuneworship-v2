@@ -49,6 +49,10 @@ h2{
   height: 40vmin;
   pointer-events: none;
 }
+.navbar{
+  background-color: #111312;
+
+}
 .btm-nav{
   background-color: #111312;
 }

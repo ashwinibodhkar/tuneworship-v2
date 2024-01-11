@@ -7,52 +7,86 @@ export default function TabSongPage() {
          <div className="grid grid-rows-1 grid-flow-col">
             <div class="grid grid-cols-1 " >
                 <div role="tablist" className="tabs tabs-bordered">
-                    <input type="radio" name="my_tabs_1" role="tab" className="tab pl-0" aria-label="Chords" />
-                    <div role="tabpanel" className="tab-content py-10">Lyrics With Chords lorem epsum Build Your Own Startup With React
-Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+                    <input type="radio" name="my_tabs_1" role="tab" className="tab pl-0" aria-label="Chords" checked/>
+                    <div role="tabpanel" className="tab-content py-10 whitespace-pre-line ...">Lyrics With Chords 
+                    {/* <pre> */}
+                    Em                                 D
+                    Dil mein basa liya hai tujhko,
 
-Email address
+                    Am                                      Em
+                    Rooh mein samaa liya hai tujhko.                    
 
-Author
-Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
-Lyrics With Chords lorem epsum Build Your Own Startup With React
-Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+                            Em                   D
+                    Teri tareef ho, Teri tareef ho, 
 
-Email address
+                            C        B          Em
+                    Teri tareef ho, Aye Yeshu.
 
-Author
-Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
-Lyrics With Chords lorem epsum Build Your Own Startup With React
-Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+                    Em                           D
+                    Mere liye tu mara, Mere liye tu gadha,
 
-Email address
+                    C                                   B             Em
+                    Yeshu tu kaisa piya, lahoo se mol liya.
 
-Author
-Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
-Lyrics With Chords lorem epsum Build Your Own Startup With React
-Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+                    Em                                 D
+                    Dil mein basa liya hai tujhko,
 
-Email address
+                    Am                                      Em
+                    Rooh mein samaa liya hai tujhko.                    
 
-Author
-Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.  
-Lyrics With Chords lorem epsum Build Your Own Startup With React
-Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+                            Em                   D
+                    Teri tareef ho, Teri tareef ho, 
 
-Email address
+                            C        B          Em
+                    Teri tareef ho, Aye Yeshu.
 
-Author
-Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
-Lyrics With Chords lorem epsum Build Your Own Startup With React
-Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+                    Em                           D
+                    Mere liye tu mara, Mere liye tu gadha,
 
-Email address
+                    C                                   B             Em
+                    Yeshu tu kaisa piya, lahoo se mol liya.
 
-Author
-Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
+                    Em                                 D
+                    Dil mein basa liya hai tujhko,
+
+                    Am                                      Em
+                    Rooh mein samaa liya hai tujhko.                    
+
+                            Em                   D
+                    Teri tareef ho, Teri tareef ho, 
+
+                            C        B          Em
+                    Teri tareef ho, Aye Yeshu.
+
+                    Em                           D
+                    Mere liye tu mara, Mere liye tu gadha,
+
+                    C                                   B             Em
+                    Yeshu tu kaisa piya, lahoo se mol liya.
+
+                    Em                                 D
+                    Dil mein basa liya hai tujhko,
+
+                    Am                                      Em
+                    Rooh mein samaa liya hai tujhko.                    
+
+                            Em                   D
+                    Teri tareef ho, Teri tareef ho, 
+
+                            C        B          Em
+                    Teri tareef ho, Aye Yeshu.
+
+                    Em                           D
+                    Mere liye tu mara, Mere liye tu gadha,
+
+                    C                                   B             Em
+                    Yeshu tu kaisa piya, lahoo se mol liya.
+
+
+                    {/* </pre> */}
                     </div>
 
-                    <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="Lyrics" checked />
+                    <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="Lyrics"  />
                     <div role="tabpanel" className="tab-content py-10">Without Chords ....lyrics only</div>
                     {/* <h4 className='text-lg text-right'>Transpose</h4> */}
                 </div>
