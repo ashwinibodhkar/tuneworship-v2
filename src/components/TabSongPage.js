@@ -8,21 +8,52 @@ export default function TabSongPage() {
             <div class="grid grid-cols-1 " >
                 <div role="tablist" className="tabs tabs-bordered">
                     <input type="radio" name="my_tabs_1" role="tab" className="tab pl-0" aria-label="Chords" />
-                    <div role="tabpanel" className="tab-content py-10">Lyrics With Chords</div>
+                    <div role="tabpanel" className="tab-content py-10">Lyrics With Chords lorem epsum Build Your Own Startup With React
+Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+
+Email address
+
+Author
+Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
+Lyrics With Chords lorem epsum Build Your Own Startup With React
+Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+
+Email address
+
+Author
+Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
+Lyrics With Chords lorem epsum Build Your Own Startup With React
+Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+
+Email address
+
+Author
+Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
+Lyrics With Chords lorem epsum Build Your Own Startup With React
+Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+
+Email address
+
+Author
+Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.  
+Lyrics With Chords lorem epsum Build Your Own Startup With React
+Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+
+Email address
+
+Author
+Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
+Lyrics With Chords lorem epsum Build Your Own Startup With React
+Let me send you the list of 5 profitable startup ideas. They're easy to build and can earn you thousand of dollars each month.
+
+Email address
+
+Author
+Hi! I'm Bernard, owner and author of this blog. In my free time, I like to build micro startups using React and NextJS.
+                    </div>
 
                     <input type="radio" name="my_tabs_1" role="tab" className="tab" aria-label="Lyrics" checked />
                     <div role="tabpanel" className="tab-content py-10">Without Chords ....lyrics only</div>
-                    
-                    <input type="radio" name="" className="tab" aria-label="Transpose"  />
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
-
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                    </svg>
-
-
                     {/* <h4 className='text-lg text-right'>Transpose</h4> */}
                 </div>
                 
