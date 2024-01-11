@@ -49,6 +49,9 @@ h2{
   height: 40vmin;
   pointer-events: none;
 }
+.btm-nav{
+  background-color: #111312;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
