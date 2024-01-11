@@ -27,7 +27,7 @@ export default function Category() {
                         <figure><img src="https://quotesbook.com/quotes/music-quotes/unknown-authors/music-is-life-thats-why-our-hearts-have-beats-2560x1440-2160.jpg" alt="car!"/></figure>
                         <div className="card-body p-3 leading-5 ...">
                         <Link to="/song">
-                             <h5 className="card-title">Life hack</h5>
+                             <h5 className="card-title">Song Page</h5>
                              </Link>
                             <p>How to park </p>
             
