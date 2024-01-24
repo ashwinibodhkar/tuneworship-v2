@@ -3,13 +3,14 @@ import "./../App.css";
 export default function Artist() {
     return (
         <>
+        {/* Artist Section */}
             <div className="py-4">
 
         
                 <div className="grid grid-rows-1 grid-flow-col">
                     <div class="grid grid-cols-2 xl:grid-cols-2" >
                         <div>
-                            <h1 className='text-2xl '>Category</h1>
+                            <h1 className='text-2xl '>Artist</h1>
                         </div>
                         <div>
                             <h4 className='text-lg text-right'> see more</h4>
