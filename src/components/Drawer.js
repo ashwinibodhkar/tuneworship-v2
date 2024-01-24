@@ -23,7 +23,7 @@ export default function Drawer() {
                         <div className="nameOfUser w-full h-auto p-6">
                             <div className="avatar">
                                 <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                    <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"  alt="ss"/>
                                 </div>
                                 <li className="self-end p-1">
                                     <h2>User Name</h2>

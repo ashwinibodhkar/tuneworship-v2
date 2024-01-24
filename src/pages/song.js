@@ -2,11 +2,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import {
-	FaYoutube,
-  FaSearchPlus,
+	FaYoutube
 } from "react-icons/fa"
 import TabSongPage from '../components/TabSongPage';
 import Advertise from '../components/Advertise';
+import SongPageBottomNav from '../components/SongPageBottomNav';
 
 export default function song() {
   return (
@@ -23,7 +23,7 @@ export default function song() {
                 </div>
                 
 
-
+                {/* verse, youtube, sharing tools start */}
                 <div className="grid grid-rows-1 grid-flow-col gap-4 py-2">
                   <div class="grid grid-cols-2 " >
                     <div>
@@ -44,7 +44,9 @@ export default function song() {
                         
                   </div>
                 </div>
+                {/* verse, youtube, sharing tools start */}
 
+                {/* content of song */}
                 <div>
                   <TabSongPage />
                 </div>
@@ -53,11 +55,14 @@ export default function song() {
               </div>
 
               <div className='lg:pl-12 md:pl-0 '>
+                {/* youtube blog */}
                 <div className='h-54 self-start shadow-2xl shadow-slate-500/40 w-full' >
-                <iframe width="100%" height="318" src="https://www.youtube.com/embed/fEwDx8YJndU?si=v3q74ciIHJyG__p5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe width="100%" height="318" src="https://www.youtube.com/embed/fEwDx8YJndU?si=v3q74ciIHJyG__p5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
+
+                {/* Advertisement */}
                 <div className='self-end'>
-                <Advertise />
+                  <Advertise />
                 </div>
                
               </div> 
@@ -68,36 +73,7 @@ export default function song() {
                            
         </div>
         {/* Bottom Nav for song page */}
-        <div className="btm-nav btm-nav-lg shadow-2xl rounded-t-lg ... lg:invisible md:visible w-full z-40">
-          <div class="grid grid-cols-3 justify-items-center ..." >
-            <div>
-              <h4 className="float-left">Transpose</h4>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 float-left">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
-              </svg>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 float-left">
-                <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-              </svg>
-            </div>
-
-            <div>
-              <h4>Sharp</h4>
-            </div>
-            
-            <div>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 float-left">
-                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607ZM10.5 7.5v6m3-3h-6" />
-              </svg>
-
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607ZM13.5 10.5h-6" />
-              </svg>
-            </div>
-
-          </div>
-
-
-        </div>
+       <SongPageBottomNav />
     </div>
     </>
   )
